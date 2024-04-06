@@ -2,32 +2,32 @@ from config import OWNER_USERNAME, SUPPORT_GRP
 from nexichat import nexichat
 
 START = f"""
-**๏ ʜᴇʏ,\n\n ɪ ᴀᴍ sɪᴋʜᴀ💞\n🥀ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ...??
+**๏ ʜᴇʏ,\n\n hey ben merve💞\n🥀nasılsı...??
 """
 
 HELP_READ = f"""
-<u>**ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ {nexichat.name}**</u>
-<u>**ᴀʀᴇ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ!**</u>
-**ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ:**
+<u>**komutlar burda {nexichat.name}**</u>
+<u>**aşağıda verilmiştir!**</u>
+**Tüm komutlar kullanılabilir:**
 **──────────────**
 <b>||©️ @{OWNER_USERNAME}||</b>
 """
 
 TOOLS_DATA_READ = f"""
-<u>**ᴛᴏᴏʟs ғᴏʀ {nexichat.name} ᴀʀᴇ:**</u>
-**➻ ᴜsᴇ /repo ғᴏʀ ɢᴇᴛᴛɪɴɢ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ!**
+<u>**Şunun için araçlar {nexichat.name} bunlar:**</u>
+**➻ ᴜsᴇ /help komutlarımı gösterir!**
 **──────────────**
-**➻ ᴜsᴇ /ping ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴛʜᴇ ᴘɪɴɢ ᴏғ {nexichat.name}**
+**➻ ᴜsᴇ /ping Ping'i kontrol etmek için {nexichat.name}**
 **──────────────**
-**➻ ᴜsᴇ /id ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴜsᴇʀ ɪᴅ, ᴄʜᴀᴛ ɪᴅ ᴀɴᴅ ᴍᴇssᴀɢᴇ ɪᴅ ᴀʟʟ ɪɴ ᴀ sɪɴɢʟᴇ ᴍᴇssᴀɢᴇ.**
+**➻ ᴜsᴇ /id Kullanıcı kimliğinizi, sohbet kimliğinizi ve mesaj kimliğinizi tek bir mesajda alın.**
 **──────────────**
 <b>||©️ @{OWNER_USERNAME}||</b>
 """
 
 CHATBOT_READ = f"""
-<u>**ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ {nexichat.name}**</u>
-**➻ ᴜsᴇ /chatbot ᴛᴏ ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**
-**๏ ɴᴏᴛᴇ ➻ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴄʜᴀᴛʙᴏᴛ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**
+<u>**için komutlar {nexichat.name}**</u>
+**➻ ᴜsᴇ /chatbo'u acmak için açkık/kapalı kapatmak için /chatbot.**
+**๏ Yalnızca gruptaki chatbot çalışması için yukarıdaki komuta dikkat edin!!**
 **───────────────**
 <b>||©️ @{OWNER_USERNAME}||</b>
 """
