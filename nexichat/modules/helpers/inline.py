@@ -68,8 +68,8 @@ CLOSE_BTN = [
 
 CHATBOT_ON = [
     [
-        InlineKeyboardButton(text="kapalı", callback_data=f"kapalı"),
-        InlineKeyboardButton(text="aktif", callback_data=f"aktif"),
+        InlineKeyboardButton(text="aktif", callback_data=f"kapalı"),
+        InlineKeyboardButton(text="kapalı", callback_data=f"aktif"),
     ],
 ]
 
