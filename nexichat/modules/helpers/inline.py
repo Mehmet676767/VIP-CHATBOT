@@ -6,8 +6,8 @@ from nexichat import nexichat
 
 DEV_OP = [
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=OWNER),
-        InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="🥀 sahip 🥀", user_id=OWNER),
+        InlineKeyboardButton(text="✨ gurup ✨", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
         InlineKeyboardButton(
@@ -19,7 +19,7 @@ DEV_OP = [
         InlineKeyboardButton(text="« ʜᴇʟᴘ »", callback_data="HELP"),
     ],
     [
-       # InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
+       # InlineKeyboardButton(text="❄️ kaynak ❄️", callback_data="SOURCE"),
         InlineKeyboardButton(text="☁️ ᴀʙᴏᴜᴛ ☁️", callback_data="ABOUT"),
     ],
 ]
@@ -27,14 +27,14 @@ DEV_OP = [
 PNG_BTN = [
     [
         InlineKeyboardButton(
-            text="😍 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 😍",
+            text="😍 beni grubuna ekle 😍",
             url=f"https://t.me/{nexichat.username}?startgroup=true",
         ),
     ],
     [
         InlineKeyboardButton(
-            text="⦿ ᴄʟᴏsᴇ ⦿",
-            callback_data="CLOSE",
+            text="geri",
+            callback_data="geri",
         ),
     ],
 ]
@@ -49,34 +49,34 @@ BACK = [
 
 HELP_BTN = [
     [
-        InlineKeyboardButton(text="🐳 ᴄʜᴀᴛʙᴏᴛ 🐳", callback_data="CHATBOT_CMD"),
-        InlineKeyboardButton(text="🎄 ᴛᴏᴏʟs 🎄", callback_data="TOOLS_DATA"),
+        InlineKeyboardButton(text="🐳 sohbet bot 🐳", callback_data="CHATBOT_CMD"),
+        InlineKeyboardButton(text="🎄 kodlar 🎄", callback_data="TOOLS_DATA"),
     ],
     [
        
-        InlineKeyboardButton(text="⦿ ᴄʟᴏsᴇ ⦿", callback_data="CLOSE"),
+        InlineKeyboardButton(text="geri git", callback_data="geri"),
     ],
 ]
 
 
 CLOSE_BTN = [
     [
-        InlineKeyboardButton(text="⦿ ᴄʟᴏsᴇ ⦿", callback_data="CLOSE"),
+        InlineKeyboardButton(text="⦿ geri ⦿", callback_data="geri"),
     ],
 ]
 
 
 CHATBOT_ON = [
     [
-        InlineKeyboardButton(text="ᴇɴᴀʙʟᴇ", callback_data=f"addchat"),
-        InlineKeyboardButton(text="ᴅɪsᴀʙʟᴇ", callback_data=f"rmchat"),
+        InlineKeyboardButton(text="kapalı", callback_data=f"kapalı"),
+        InlineKeyboardButton(text="aktif", callback_data=f"aktif"),
     ],
 ]
 
 
 MUSIC_BACK_BTN = [
     [
-        InlineKeyboardButton(text="sᴏᴏɴ", callback_data=f"soom"),
+        InlineKeyboardButton(text="kapat", callback_data=f"kapat"),
     ],
 ]
 
